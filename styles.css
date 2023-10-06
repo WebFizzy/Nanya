@@ -803,6 +803,9 @@ footer {
     justify-content: center;
      gap: 1rem;
  }
+  .contact-list-item {
+    padding: 0.4rem 1.2rem;
+  }
 
   /*----footer---*/
   .footer-menu {
