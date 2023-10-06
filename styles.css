@@ -135,7 +135,10 @@ section > h1 {
 
 section:nth-child(odd) {
   background: var(--color-gray-200);
+}
 
+a {
+  color: #3f51b5;
 }
 
 /*--NAVBar--*/
