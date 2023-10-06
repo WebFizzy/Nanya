@@ -318,22 +318,23 @@ header {
 
 /*----PUBLICATION---*/
 .row {
-  display: grid;
-  grid-template-columns: 1.1fr 2fr;
+  display: flex;
 }
 .headd {
-  width: 25rem;
+  width: 40%;
   border-right: 2px solid white;
   display: grid;
   justify-content: center;
 }
 .coun {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  display:flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .row .box {
-  width: 25rem;
+  width: 40%;
   height: auto;
   border-radius: var(--radius-2);
   font-size: 1.2rem;
@@ -732,16 +733,13 @@ footer {
 
   /*----HEADER---*/
   .row {
-    grid-template-columns: 1fr;
+    display: grid;
   }
   .headd {
     width: 100%;
 
   }
-  .counter {
-    max-width: 100%;
-  }
-  .counter .coun {
+  .coun {
     width: 100%;
     display: grid;
   }
