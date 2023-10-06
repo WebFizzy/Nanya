@@ -322,13 +322,13 @@ header {
   grid-template-columns: 1.1fr 2fr;
 }
 .headd {
-  width: 30rem;
+  width: 25rem;
   border-right: 2px solid white;
   display: grid;
   justify-content: center;
 }
 .coun {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
 }
