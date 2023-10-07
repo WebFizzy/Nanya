@@ -409,9 +409,6 @@ header {
   font-size: 1.4rem;
   color: var(--color-gray-800);
 }
-.courseworkin ol {
-  margin-left: 1rem;
-}
 .courseworkin li {
   padding: 0.2rem 0;
   list-style: disc;
@@ -421,6 +418,9 @@ header {
   padding-left: 0.4rem;
   list-style: disc;
   list-style-type: circle;
+}
+.courseworkin .disc {
+  list-style: disc;
 }
 .courseworkin .un {
   margin-left: 1.8rem;
